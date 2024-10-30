@@ -1,0 +1,314 @@
+.hvp-save-btn {
+	float: right;
+}
+.hvp-page-link {
+	float: right;
+	padding-top: 20px;
+}
+.hvp-clear-both {
+	clear: both;
+}
+.hvp-top-down {
+	height: 10px;
+}
+.hvp-view {
+	float:left;
+	width:100px;
+	font-weight: bold;
+}
+.hvp-right{
+	float: right;
+}
+.hvp-reset-wrapper {
+	margin: 5px 0 15px;
+}
+.hvp-checkbox-label {
+	margin-left: 5px;
+}
+#hvp-popup-shortcode {
+    width: 90%;
+    max-width: 1300px;
+}
+#hvp-firstrun-content {
+    border-radius: 4px;
+    max-width: 620px;
+}
+#hvp-activate-explanation {
+    padding-right: 40px;
+    padding-left: 40px;
+    text-align: center;
+}
+#hvp-activate-explanation h1 {
+    font-size: 21px;
+    color: #009cd6;
+    text-align: center;
+}
+#hvp-activate-explanation p {
+    font-size: 16px;
+}
+#hvp-activate-explanation label {
+    font-size: 14px;
+}
+#hvp-activate-explanation img {
+    width: 100%;
+    height: 82px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hvp-details {
+    font-size: 12px !important;
+}
+/********** CSS for Shortcode Popup Starts ***********/
+.hvp-popup-content {
+    margin: 0 auto;
+    min-height: 370px;
+    display: none;
+	position: absolute;/* fixed*/
+	border: 1px solid #555555;
+	top: 25%;
+	text-align: left;
+	left: 0%;
+	right: 0%;
+	max-width: 620px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	z-index:10002;
+	overflow: auto;
+	font-size: 13px;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;
+	/*height: 460px;*/
+}
+#hvp-firstrun-content {
+    max-width: 620px;
+}
+.hvp-popup-content .description {
+	margin-left: 0px !important
+}
+.hvp-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.hvp-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.hvp-popup-close {
+ 	float: right;
+    padding: 4px 10px 0;
+    text-align: right;
+}
+.hvp-header {
+    background-color: #222222;
+    color: #CFCFCF;
+    min-height: 29px;
+    position: relative;
+    width: auto;
+}
+.hvp-popup {
+  padding: 10px 15px;
+}
+#hvp-shortcode-error, .hvp-error {
+	color: red;
+}
+#hvp-insert-container {
+	margin: 15px;
+}
+#hvp-shortcode-error, 
+#hvp-insert-container,
+.hvp-shortcodes-options {
+ 	display: block;
+}
+/***************** CSS for Shortcode Popup Ends******************/
+.hvp-display-none {
+	display: none;
+}
+.hvp-post-select-wrap, .hvp-taxonomy-select-wrap {
+	float: left;
+}
+.hvp-loader {
+	display: none;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.hvp-form select {
+	width: 150px;
+}
+/***************** Customize Chosen CSS Start *******************/
+.chzn-select {
+	width: 200px;
+}
+.alignleft.actions .chzn-container-single {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chzn-search input {
+	width: 100% !important;
+}
+.hvp-desc-container {
+    display: none;
+    margin: 5px 0px;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+    color: #666;
+}
+.hvp-title {
+    margin-bottom: 4px;
+}
+.hvp-close-button img{
+	height: 20px;
+}
+/*** CSS properties for awesome checkboxes ***/
+.hvp-chk {
+    position: relative;
+    padding: 12px;
+}
+.hvp-chk input[type=checkbox] {
+    display: none;
+}
+.hvp-chk label {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.hvp-chk label::before {
+    content: "";
+    display: inline-block;
+    background-image: url('../images/check-unchecked.svg');
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.hvp-chk input[type=checkbox]:checked+label::before {
+    background-image: url('../images/check-checked.svg');
+}
+.hvp-chk input[type=checkbox]:not(:checked)+label:hover::before {
+    background-image: url('../images/check-hover.svg');
+}
+.widget-inside .hvp-chk {
+    padding: 4px;
+}
+.hvp-popup-2col {
+    width: 100%;
+}
+.hvp-popup-2col .hvp-popup-col {
+    width: 47%;
+}
+.hvp-widget-2col .hvp-popup-col input {
+    width: 70px;
+}
+.hvp-popup-col {
+    display: inline-block;
+    margin: 1em;
+    vertical-align: top;
+}
+.hvp-input-row {
+    display: block;
+    margin-top: 20px;
+}
+.hvp-input-row * {
+    display: inline-block;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.hvp-input-row label {
+    font-size: 16px;
+    color: #333333;
+    padding: 0;
+    display: block;
+}
+.hvp-input-row input {
+    height: 36px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border: solid 1px #d8d8d8;
+    padding: 2px;
+}
+.hvp-input-row button {
+    vertical-align: middle !important;
+}
+.hvp-input-row p {
+    font-size: 14px;
+    color: #999999;
+}
+.hvp-input-row a {
+    font-size: 16px;
+}
+.hvp-input-row div {
+    margin: 0;
+    padding: 0;
+}
+.hvp-help-tip {
+    display: none;
+}
+.hvp-help {
+    position: relative;
+}
+.hvp-help:hover .hvp-help-tip {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 200px;
+    background: white;
+    border: 1px solid #009cd6;
+    border-radius: 4px;
+    opacity: 1;
+    padding: 5px;
+    vertical-align: center;
+    font-size: 12px;
+}
+.hvp-help::before {
+    content: "";
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    background-image: url('../images/how.svg');
+    cursor: pointer;
+    vertical-align: middle;
+}
+#hvp-ads-url {
+    width: 300px;
+}
+#hvp-cdn-signup-step1, 
+#hvp-cdn-signup-step2, 
+#hvp-cdn-signup-inprogress,
+#hvp-cdn-signup-error,
+#hvp-cdn-signup-used {
+    display: none;
+}
+.hvp-cdn-signup-steps {
+    list-style-type: none;
+    counter-reset: signupStep;
+}
+.hvp-cdn-signup-steps > li::before {
+    background-color: #009cd6;
+    border-radius: 100%;
+    counter-increment: signupStep;
+    content: counter(signupStep);
+    position: absolute;
+    margin-left: -24px;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 1px;
+    padding-bottom: 1px;
+}
+.hvp-cdn-signup-steps > li {
+    display: block;
+    margin-left: 30px;
+}
